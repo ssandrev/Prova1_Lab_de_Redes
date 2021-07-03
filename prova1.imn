@@ -116,7 +116,7 @@ node n1 {
 	
 	nomeServidor = '200.17.124.13'
 	
-	portaServidor = 12000
+	portaServidor = 2303
 	
 	socketCliente = socket (AF_INET, SOCK_STREAM)
 	
@@ -236,7 +236,7 @@ node n2 {
 	
 	nomeServidor = '200.17.124.13'
 	
-	portaServidor = 12000
+	portaServidor = 2303
 	
 	socketCliente = socket (AF_INET, SOCK_STREAM)
 	
@@ -316,7 +316,7 @@ node n3 {
 	import os
 	import pickle
 	
-	portaServidor = 12000
+	portaServidor = 2303
 	
 	socketServidor = socket (AF_INET, SOCK_STREAM)
 	
